@@ -1,0 +1,25 @@
+I.USER(abstract class - base)
+
+1.Department editors – ability to decide if some material is going to be printed on the daily edition of the newspaper
+2.Journalists
+3.Press photographers
+4.Trainees
+II.Departments
+-Theme(abstract class -base)
+1.News
+-sub-themes – Bulgaria, world, IT
+2.Analisys(base)
+-journalists
+-freelance authors
+3.Business(base)
+-companies, finance, real estates…
+4.Sport(base)
+-subthemes – football, volleyball….
+IIIPRIORITIES(enum?)
+ - Very important
+-Important
+-Not so important
+IV.TASKS 
+1.Comments for editors (interface Icomment?)
+-allow editors to edit the task before it’s finished if necessary
+2Allow editors to give tasks to more than one journalist. In this case, task can be seen and divided to subtasks between the employees.
