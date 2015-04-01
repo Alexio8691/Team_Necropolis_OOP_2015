@@ -1,0 +1,21 @@
+1.USER - abstract class;
+-Elite(redactors);
+-Veteran(journalists, photographers);
+-Junior(Trainees);
+1.1User data
+-name
+-department
+
+2.Tasks - abstract class
+-Icoment(interface) - ability to leave a short comment related to the task
+-update comment(adding notes - optional)  - ?
+2.1.Adding task
+-adding priority - today(very important), three days(not so important), end-of-the week(low priority)
+-(optional)newspaper-like or site-like task  - if it's newspaper- priority "today"
+2.2.Task types(derived classes)
+-news article
+-reportage
+-photo
+-interview
+-video
+3.Sharing tasks between employers
